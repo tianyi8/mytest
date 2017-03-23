@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43558" started-at="2017-03-23T01:51:31Z" finished-at="2017-03-23T01:52:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43558" started-at="2017-03-23T01:51:31Z" finished-at="2017-03-23T01:52:15Z">
+      <class name="login.test.cases.LoginTestRight">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:login.test.cases.LoginTestRight@6d4b1c02]" name="setUp" is-config="true" duration-ms="2129" started-at="2017-03-23T09:51:31Z" finished-at="2017-03-23T09:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.cases.LoginTestRight@6d4b1c02]" name="testCase" duration-ms="6248" started-at="2017-03-23T09:51:34Z" data-provider="user" finished-at="2017-03-23T09:51:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[luotianyi@gogbuy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[108855435@lty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[罗天义]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login.test.cases.LoginTestRight@6d4b1c02]" name="tearDown" is-config="true" duration-ms="1189" started-at="2017-03-23T09:51:40Z" finished-at="2017-03-23T09:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.test.cases.LoginTestRight -->
+      <class name="login.test.cases.LoginTestError">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="setUp" is-config="true" duration-ms="887" started-at="2017-03-23T09:51:41Z" finished-at="2017-03-23T09:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="testCase" duration-ms="5835" started-at="2017-03-23T09:51:42Z" data-provider="user" finished-at="2017-03-23T09:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[请输入用户名和密码]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="tearDown" is-config="true" duration-ms="1174" started-at="2017-03-23T09:51:48Z" finished-at="2017-03-23T09:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="setUp" is-config="true" duration-ms="2217" started-at="2017-03-23T09:51:49Z" finished-at="2017-03-23T09:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="testCase" duration-ms="5410" started-at="2017-03-23T09:51:51Z" data-provider="user" finished-at="2017-03-23T09:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码未输入]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="tearDown" is-config="true" duration-ms="1163" started-at="2017-03-23T09:51:57Z" finished-at="2017-03-23T09:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="setUp" is-config="true" duration-ms="1369" started-at="2017-03-23T09:51:58Z" finished-at="2017-03-23T09:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="testCase" duration-ms="6271" started-at="2017-03-23T09:51:59Z" data-provider="user" finished-at="2017-03-23T09:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名未输入]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="tearDown" is-config="true" duration-ms="1180" started-at="2017-03-23T09:52:05Z" finished-at="2017-03-23T09:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="setUp" is-config="true" duration-ms="1381" started-at="2017-03-23T09:52:07Z" finished-at="2017-03-23T09:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="testCase" duration-ms="5903" started-at="2017-03-23T09:52:08Z" data-provider="user" finished-at="2017-03-23T09:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码错误，或登录受到限制]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login.test.cases.LoginTestError@77cd7a0]" name="tearDown" is-config="true" duration-ms="1180" started-at="2017-03-23T09:52:14Z" finished-at="2017-03-23T09:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.test.cases.LoginTestError -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
